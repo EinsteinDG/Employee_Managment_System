@@ -27,12 +27,12 @@ db.all(tableCheckQuery, function(err, rows) {
   } else {
     // ---- This is for testing ---- //
     // db.run(insertQuery, [
-    //   'Hyeeun',
+    //   'EinsteinDG',
     //   'F300',
     //   'Full Stack Developer',
-    //   'Yellow',
-    //   'Toronto',
-    //   'High Park',
+    //   'Red',
+    //   'Austin',
+    //   'SOCO',
     //   false,
     // ]);
   }

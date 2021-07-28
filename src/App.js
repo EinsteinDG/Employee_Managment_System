@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <NavBar title="Plexxis" user="Hyeeun Mok" />
+        <NavBar title="EmploGath" user="EinsteinDG" />
         <Route path="/" exact component={UserDashboard} />
         <Route path="/edit/:id" component={EditForm} />
         <Route path="/add" component={AddForm} />
