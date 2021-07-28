@@ -1,45 +1,41 @@
-<img src="https://img.shields.io/badge/Node-12.16.3-brightgreen"> <img src="https://img.shields.io/github/last-commit/denzgrant/Employee-Management-System">
-<h1>Employee-Management-System</h1>
-  
-<p>Employee-Management-System is a Content Management System that stores the user's information in MySQL. This application is used for managing a company's employee data using Node.js, inquirer, and CRUD operations.</p>
-  
- ## User Story
- ```
-As a business owner
-I want to be able to view and manage the departments, roles, and employees in my company
-So that I can organize and plan my business
-```
+# Homework-12
+ Employee Management System
 
- <br>
-<img src="/ezgif.com-crop.gif" alt="demogif">  
-</p>
-  <h2>Table of Contents</h2>
-  <ul> 
-   <li><a href="#Installation">Installation</a></li> 
-   <li><a href="#Usage">Usage</a></li>   
-   <li><a href="#License">License</a></li>   
-   <li><a href="#Contributing">Contributing</a></li>   
-   <li><a href="#Questions">Questions</a></li>                         
-  </ul>
-  <h2 id="Installation">Installation</h2>                         
-  <p>
-  <ol>
-<li>Clone this repository.<pre><code> git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/denzgrant/Employee-Management-System.git
-</code></pre></li>
-<li>Install Nodejs dependencies.<pre><code> npm <span class="hljs-keyword">install</span>
-</code></pre></li>
-<li>In the root directory of the project, start the app.<pre><code> <span class="hljs-keyword">node</span> <span class="hljs-title">server</span>.js
-</code></pre></li>
-</ol>
-  <h2 id="Usage">Usage</h2>
-  <p>This application can be used to create an employee database using CRUD operations. 
-  <h2 id="License">License</h2>
-  <p>Licensed under the <a href="./LICENSE">MIT</a></p>
-  <h2 id="Contributing">Contributing</h2>
-  <p>Anyone is free to contribute to this application. Being an open source community makes the Dev community special. Any contributes are appreciated. </p>
-  <h2 id="Questions">Questions</h2>
-  <p style="strong">Any questions regarding this project, contact denzgrant@gmail.com directly.</p> 
-  <img src="https://avatars.githubusercontent.com/u/58059554?" alt="git hub profile picture" height="225" width="250">
-  
-  <img src="https://img.shields.io/github/followers/denzgrant?label=follow&style=social">
-  
+The purpose of this application is to allow users to dynamically update, and manage their business. It utilizes the power of the mysql node module to use javascript to update our mySQL database and view our insertions using console.table.
+
+# Installation
+Through Github create a clone of the repository.
+Once cloned to your local computer, in the terminal, run npm install.
+Load the seed.sql and the schema.sql into MySQLWorkbench.
+Once the packages have been installed and MySQLWorkbench is running, run node server.js in the terminal. Prompts should appear automatically after.
+# Functionality
+Users are prompted for their desired action which can be:
+1.View All Employees
+2.Add Employee
+3.Update Employee Role
+
+
+All employee class attributes are handled in the server and, depending on which role is chosen, a salary, manager, and department are assigned
+# Screenshots
+  connection
+<img src="assets/images/node.png">
+  view all employees
+   <img src="assets/images/node2.png">
+   add employee
+    <img src="assets/images/node3.png">
+    view again
+     <img src="assets/images/node4.png">
+# Requirments
+This application utilizes several node modules. Run the following npm install accordingly
+
+npm install mysql inquirer console-table
+# License
+MIT License
+
+Copyright (c) 2020 Ana Suvac
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

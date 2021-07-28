@@ -1,29 +1,29 @@
 {
-  "name": "Employee-Management-System",
+  "name": "homework-12",
   "version": "1.0.0",
-  "description": "",
+  "description": "Employee Management System",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.3",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/denzgrant/Employee-Management-System.git"
+    "url": "git+https://github.com/Ana199816/homework-12"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/denzgrant/Employee-Management-System/issues"
+    "url": "https://github.com/Ana199816/homework-12/issues"
   },
-  "homepage": "https://github.com/denzgrant/Employee-Management-System#readme",
-  "dependencies": {
-    "chalk": "^4.0.0",
-    "console.table": "^0.10.0",
-    "figlet": "^1.4.0",
-    "inquirer": "^7.1.0",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.1.0",
-    "util": "^0.12.3"
-  }
+  "homepage": "https://github.com/Ana199816/homework-12/blob/master/README.md"
 }
