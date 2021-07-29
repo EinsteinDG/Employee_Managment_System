@@ -1,5 +1,5 @@
 {
-  "name": "homework-12",
+  "name": "homework",
   "version": "1.0.0",
   "description": "Employee Management System",
   "main": "app.js",
@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ana199816/homework-12"
+    "url": "git+https://github.com/EinsteinDG/Employee_Managment_System"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ana199816/homework-12/issues"
+    "url": "https://github.com/EinsteinDG/Employee_Managment_System/"
   },
-  "homepage": "https://github.com/Ana199816/homework-12/blob/master/README.md"
+  "homepage": "https://github.com/EinsteinDG/Employee_Managment_System/blob/main/README.md"
 }
